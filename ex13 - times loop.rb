@@ -15,7 +15,7 @@
 puts "Calculate the avg of 6 students grade."
 sum = 0
 
-6.times do |counter|
+6.times do |counter| # just 6 times the looping will be.
   print "Enter the grade of student #{counter + 1}: "
   grade = gets.chomp.to_i
   sum += grade

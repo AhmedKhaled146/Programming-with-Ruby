@@ -30,6 +30,5 @@ else
     factorial *= i # i is counter like 1 2 3 4 5 .... to N
   end
   puts "Factorial of #{number} is #{factorial}"
-
 end
 

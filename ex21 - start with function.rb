@@ -16,6 +16,8 @@ puts sum
 
 power = 5.pow(2)
 puts power
+floor = 12.40.floor
+puts floor
 
 length = "Ahmed".length
 puts length

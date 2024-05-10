@@ -29,7 +29,11 @@ def is_odd(number)
   return number % 2 != 0
 end
 
-# Function to calculate the factorial of a number
+# Function to calculate the factorial of a number(Recursion)
+# function calls itself in order to solve smaller instances of
+# the same problem until it reaches a base case, where the solution can be
+# determined directly without further recursion. Recursion is often used
+# to solve problems that can be broken down into smaller, similar subproblems.
 def factorial(n)
   if n == 0
     return 1

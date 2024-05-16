@@ -13,12 +13,7 @@ end
 numbers = [1, 2, 3]
 print "#{numbers} \n"
 modify_array(numbers)
-
 print numbers
-
-# Output
-# [1, 2, 3]
-# [1, 2, 3, 100]
 
 # When it pushes 100 to the array inside the function, it modifies the original array itself,
 # ******* because both the function argument and the original variable refer to the same object in memory. *******
@@ -37,11 +32,6 @@ number = 5
 puts number
 change_number(number)
 puts number
-
-
-# Output
-# 5
-# 5
 
 # it's only modifying the local copy within the function. The original variable number remains unchanged
 # ******* because they hold separate integer values in memory. *******
